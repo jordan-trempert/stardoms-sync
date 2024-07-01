@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "betterbiomes",
+	"version": "${version}",
+	"name": "Stardom's Better Biomes",
+	"description": "This mod overhauls The Overworld in a better way!",
+	"authors": [
+		"Stardom"
+	],
+	"contact": {
+		"homepage": "https://stardomga.me/"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/stardomssync/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"stardom.sync.StardomsSync"
+		],
+		"client": [
+			"stardom.sync.StardomsSyncClient"
+		]
+	},
+	"mixins": [
+		"stardoms-sync.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
