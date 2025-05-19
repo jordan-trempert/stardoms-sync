@@ -2,8 +2,8 @@
 	"schemaVersion": 1,
 	"id": "betterbiomes",
 	"version": "${version}",
-	"name": "Stardom's Better Biomes",
-	"description": "This mod overhauls The Overworld in a better way!",
+	"name": "Stardom's Sync",
+	"description": "This mod syncs real life time and weather into Minecraft",
 	"authors": [
 		"Stardom"
 	],
@@ -26,7 +26,7 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.15.11",
-		"minecraft": "~1.21",
+		"minecraft": "~1.21.5",
 		"java": ">=21",
 		"fabric-api": "*"
 	},

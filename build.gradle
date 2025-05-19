@@ -31,6 +31,11 @@ repositories {
 			includeGroup("software.bernie.geckolib")
 		}
 	}
+
+	mavenCentral()      // to fetch openweathermap-api :contentReference[oaicite:2]{index=2}
+	maven { url 'https://maven.fabricmc.net/' }
+
+
 }
 
 dependencies {
@@ -41,10 +46,11 @@ dependencies {
 
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-
-
+	modImplementation 'com.github.prominence:openweathermap-api:2.4.1'
 
 }
+
+
 
 
 
